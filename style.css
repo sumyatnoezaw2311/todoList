@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Padauk:wght@400;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Montserrat','Padauk', sans-serif;
+    font-size: 15px;
+}
+.container-fluid{
+    background-image: url('img/bg.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.card{
+    background-color: rgb(255, 255, 255, 0.2);
+}
+p{
+    margin-bottom: 0 !important;
+}
+ul{
+    list-style: none;
+    overflow-y: scroll;
+    border-radius: 0px !important;
+    height: 300px;
+}
+
+ul li{
+    border: none !important;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
